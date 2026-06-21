@@ -32,4 +32,4 @@ Sistema de gestión empresarial diseñado para PyMEs peruanas. Control de invent
 | [elect-validate](https://github.com/arkelythex/elect-validate) | Electoral act validation suite |
 | [EdgeTraz-Agro](https://github.com/arkelythex/EdgeTraz-Agro) | Agro-industrial traceability |
 | [Administración](https://github.com/arkelythex/Administracion) | Business management platform |
-| [Founder](https://github.com/Dreamcoder08) | Dreamcoder08 — Software Architect · GDE · MVP |
+| [Founder](https://github.com/Dreamcoder08) | Dreamcoder08 — Software Architect · GDE |
