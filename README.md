@@ -1,35 +1,61 @@
-# Administración — Gestión Empresarial
+# Administración — Gestión Empresarial para PyMEs Peruanas
 
-> **🏢 ARKELYTHEX Ecosystem** — This project is part of the [ARKELYTHEX](https://github.com/arkelythex) venture studio.  
+> **Parte del ecosistema [ARKELYTHEX](https://github.com/arkelythex)** — Infraestructura fiscal para LATAM.
 
-Sistema de gestión empresarial diseñado para PyMEs peruanas. Control de inventarios, facturación, cuentas por cobrar/pagar y reportes gerenciales.
-
-## Estado
-
-🚧 **En desarrollo activo** — Versión prototipo
-
-## Funcionalidades
-
-- Gestión de inventarios y almacenes
-- Control de cuentas por cobrar y pagar
-- Reportes gerenciales básicos
-- Interfaz web responsiva
-
-## Stack
-
-- TypeScript / React
-- SQL Database
-- API REST
+**¿Para quién es esto?** Para dueños de pequeñas y medianas empresas en Perú que necesitan un sistema sencillo pero potente para gestionar su negocio — inventarios, facturación, cuentas, y reportes — todo en un solo lugar.
 
 ---
 
-## 🌐 ARKELYTHEX Ecosystem
+## ¿Qué hace?
 
-| Component | Description |
-|-----------|-------------|
-| [ARKELYTHEX Monorepo](https://github.com/arkelythex/Arkelythex) | Primary development hub — fiscal intelligence platform |
-| [Digital Public Peru](https://github.com/arkelythex/Digital_Public_peru) | Civic tech for fiscal transparency |
-| [elect-validate](https://github.com/arkelythex/elect-validate) | Electoral act validation suite |
-| [EdgeTraz-Agro](https://github.com/arkelythex/EdgeTraz-Agro) | Agro-industrial traceability |
-| [Administración](https://github.com/arkelythex/Administracion) | Business management platform |
-| [Founder](https://github.com/Dreamcoder08) | Dreamcoder08 — Software Architect · GDE |
+Administración te permite llevar el control de tu empresa sin complicación:
+
+- **Inventarios** — control de stock, entradas y salidas
+- **Facturación** — emisión y seguimiento de comprobantes
+- **Cuentas por cobrar/pagar** — control de ingresos y egresos
+- **Reportes gerenciales** — visibilidad del estado de tu negocio
+
+---
+
+## Empezar
+
+```bash
+# Clonar
+git clone https://github.com/arkelythex/Administracion.git
+cd Administracion
+
+# Instalar dependencias
+bun install
+
+# Configurar entorno
+cp .env.example .env
+
+# Iniciar
+bun dev
+```
+
+> **Nota:** Este proyecto está en fase prototipo. Cosas pueden cambiar.
+
+---
+
+## Stack
+
+TypeScript · React · SQL · REST API
+
+---
+
+## 🌐 Ecosistema ARKELYTHEX
+
+| Proyecto | Descripción |
+|----------|-------------|
+| [Monorepo ARKELYTHEX](https://github.com/arkelythex/Arkelythex) | Hub principal de desarrollo |
+| [Digital Public Peru](https://github.com/arkelythex/Digital_Public_peru) | Transparencia fiscal |
+| [elect-validate](https://github.com/arkelythex/elect-validate) | Validación electoral |
+| [EdgeTraz-Agro](https://github.com/arkelythex/EdgeTraz-Agro) | Trazabilidad agroindustrial |
+| [Administración](https://github.com/arkelythex/Administracion) | Gestión empresarial |
+
+---
+
+<p align="center">
+  <sub>Parte de <a href="https://github.com/arkelythex">ARKELYTHEX</a> — Construyendo la infraestructura que LATAM merece.</sub>
+</p>
