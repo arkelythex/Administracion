@@ -1,0 +1,28 @@
+# Gentleman Guardian Angel Configuration — Admin Tools
+
+# AI Provider: DeepSeek V4 Flash via direct API
+PROVIDER="deepseek:deepseek-chat"
+
+# File patterns to include in review
+FILE_PATTERNS="*.ts,*.tsx,*.js,*.jsx,*.mjs,*.cjs,*.mts,*.cts,*.py,*.rs,*.yml,*.yaml,*.json,*.md"
+
+# File patterns to exclude from review
+EXCLUDE_PATTERNS="*.test.ts,*.spec.ts,*.test.tsx,*.spec.tsx,*.d.ts,bun.lock,*.snap,*generated*,node_modules/*,dist/*,.git/*"
+
+# File containing code review rules
+RULES_FILE="AGENTS.md"
+
+# Strict mode: fail if AI response is ambiguous
+STRICT_MODE="true"
+
+# Timeout: 2 minutes
+TIMEOUT="120"
+
+# Base branch for --pr-mode
+PR_BASE_BRANCH="main"
+
+# Max summary length in output
+SUMMARY_MAX_LEN=500
+
+# Output format
+OUTPUT_FORMAT="markdown"
